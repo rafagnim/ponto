@@ -25,10 +25,12 @@ public class JornadaService {
     }
 
     public List<JornadaTrabalho> findAll() {
+
         return   jornadaRepository.findAll();
     }
 
     public Optional<JornadaTrabalho> getById(Long idJornada) {
+
         return jornadaRepository.findById(idJornada);
     }
 

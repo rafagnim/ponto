@@ -24,13 +24,11 @@ public class JornadaTrabalhoController {
     @GetMapping
     public List<JornadaTrabalho> getJornadaList(){
         return jornadaService.findAll();
-
     }
 
     @GetMapping("/{idJornada}")
     public ResponseEntity<JornadaTrabalho> getJornadaByID(@PathVariable("idJornada") Long idJornada) throws Exception {
         return  ResponseEntity.ok(jornadaService.getById(idJornada).orElseThrow(() -> new NoSuchElementException("Not found!")));
-
     }
 
     @PutMapping

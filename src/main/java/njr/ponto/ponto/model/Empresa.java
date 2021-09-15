@@ -18,7 +18,7 @@ public class Empresa {
     private String descricao;
     private String cnpj;
     private String endereco;
-    private String bairo;
+    private String bairro;
     private String cidade;
     private String estado;
     private String telefone;

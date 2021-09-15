@@ -43,12 +43,12 @@ public class SwaggerConfig {
     @Bean
     public ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("API-REST")
-                .description(" super live code")
+                .title("API-Controle Jornada de Trabalho")
+                .description("API com a implementação de algumas das entidades criadas")
                 .version("1.0.0")
                 .license("Apache License Version 2.0")
                 .licenseUrl("https://www.apache.org/licenses/LICENSE-2.0")
-                .contact(new Contact("DIO", "https://web.digitalinnovation.one", "contato@digitalinnovationone.com.br"))
+                .contact(new Contact("", "", ""))
                 .build();
     }
 }
